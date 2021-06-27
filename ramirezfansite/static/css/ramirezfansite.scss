@@ -1,0 +1,33 @@
+$signature-color2: rgb(170, 140, 170);
+$signature-color: rgb(157, 59, 187);
+
+footer {
+    div.copyright {
+        background-color: $signature-color;
+        color: white;
+    }
+    section.footer-links {
+        background-color:rgb(109, 163, 184);
+        div.row {
+            padding-top: 15px;
+            a {
+                color: rgb(57, 57, 57);
+            }
+        }
+    }
+}
+
+nav.navbar {
+    a.navbar-brand {
+        color: $signature-color;
+    }
+}
+
+div.card {
+    div.card-body {
+        h5.card-title {
+            color: $signature-color;
+        }
+    }
+}
+            

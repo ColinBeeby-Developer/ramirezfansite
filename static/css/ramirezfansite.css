@@ -1,0 +1,18 @@
+footer div.copyright {
+  background-color: #9d3bbb;
+  color: white; }
+
+footer section.footer-links {
+  background-color: #6da3b8; }
+  footer section.footer-links div.row {
+    padding-top: 15px; }
+    footer section.footer-links div.row a {
+      color: #393939; }
+
+nav.navbar a.navbar-brand {
+  color: #9d3bbb; }
+
+div.card div.card-body h5.card-title {
+  color: #9d3bbb; }
+
+/*# sourceMappingURL=ramirezfansite.css.map */

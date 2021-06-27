@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block body_class %}template-homepage{% endblock %}
+
+{% block extra_css %}
+{% endblock extra_css %}
+
+{% block content %}
+<div class="jumbotron">
+    <h1 class="display-4">Welcome to the Dr Janina Ramirez fansite</h1>
+    <p class="lead">Here you'll be able to find information about The Doc</p>
+    <hr class="my-4">
+    <p>It's also a portal for you to share your Dr Janina Ramirez fan information</p>
+    <!--<p class="lead">
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </p>-->
+    
+</div>
+
+<div class="container">
+    <div class="row">
+      <div class="span4"></div>
+      <div class="span4"><img class="center-block" src="{% static 'images/ramirez_with_manuscript.jpeg' %}" alt="Dr Ramirez with a manuscript"/></div>
+      <div class="span4"></div>
+    </div>
+</div>
+
+{% endblock content %}
